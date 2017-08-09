@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearboth {
+  clear:both;
+}
+
+body {
+  background-color:lightgrey;
+}
+
+#mainBox {
+  width: 70%;
+  background-color: lightgrey;
+  margin: 35px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+  padding: 20px;
+  box-sizing:border-box;
+}
+
+.fillIn {
+  background-color: white;
+  border: .25px solid lightgrey;
+  float:left;
+}
+
+#colorBox {
+  padding-top: 15px; 
+}
+
+.color {
+  height:25px;
+  width:25px;
+  border-radius: 50px;
+  float: left;
+  margin: 0 2px;
+}
+
+.color:nth-child(1) {
+  background-color: firebrick;
+}
+
+.color:nth-child(2) {
+  background-color: lightskyblue;
+}
+
+.color:nth-child(3) {
+  background-color: gold;
+}
+
+.color:nth-child(4) {
+  background-color: hotpink;
+}
+
+.color:nth-child(5) {
+  background-color: black;
+}
